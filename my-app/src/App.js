@@ -54,7 +54,7 @@ function App() {
       <Header />
       <AdditionHeader />
       <WelcomeUser />
-      <ProfilePicture />
+      <ProfilePicture /> 
       <Body />
       <Footer/>
     </div>
