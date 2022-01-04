@@ -40,11 +40,12 @@ function Body() {
   );
 }
 
-function Footer() {
+function Footer(props) {
   return (
     <section>
-    <p> bottom</p>
+    <p> Emmanuel Akindutire Copyright { props.year } </p>
     </section>
+   
   );
 }
 
@@ -56,7 +57,7 @@ function App() {
       <WelcomeUser />
       <ProfilePicture /> 
       <Body />
-      <Footer/>
+      <Footer year={new Date().getFullYear()}/>
     </div>
   )
 }
